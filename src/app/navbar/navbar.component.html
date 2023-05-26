@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        aria-controls="navbarRightAlignExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse"
+        id="navbarRightAlignExample"
+        mdbCollapse>
+      <img src="../../assets/images/logo2.png" width="50px" height="50px"><h4>VOITECH</h4>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/home']"><span>Accueil</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/pageclient']" ><span> Client</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/pageemploye']"><span> Employe</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  [routerLink]="['/voiture']" ><span>Voiture</span></a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link active" href="#"[routerLink]="['/dashboard']"><span>DashBoard</span></a>
+          </li>
+          <button type="button" class="btn btn-outline-secondary"[routerLink]="['/login']">Déconnexion</button>
+        </ul>
+      </div>
+    </div> 
+</nav>

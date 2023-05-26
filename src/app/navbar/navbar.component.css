@@ -1,0 +1,12 @@
+.navbar{
+    background-color:cadetblue !important;
+    color:rgb(224, 224, 171);
+}
+span{
+    color:rgb(224, 224, 171);
+    font-size: 20px !important;
+}
+span:hover{
+    color: rgb(149, 43, 4);
+}
+ 
